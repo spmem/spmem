@@ -27,7 +27,7 @@
 </a>
 </p>
 
-## Install Environment:
+## 📦 Install Environment:
 ```
 conda create -n spmem python=3.10 -y
 conda activate spmem
@@ -46,7 +46,7 @@ pip install -e .
 ```
 
 
-## Dataset Preprocess:
+## 🌎Dataset Preprocess:
 
 - We processed web videos (from Miradata) into ~80K video clips, and annotated the original videos with **MegaSAM** (images, depth, and camera poses).
 - The resulting dataset is available at [**`ysmikey/spmem_megadata`**](https://huggingface.co/datasets/ysmikey/spmem_megadata).
@@ -55,7 +55,7 @@ pip install -e .
 
 
 
-## Inference:
+## 🤖Inference:
 ### Download Weights:
 Download required weights from [[Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)] and [[spmem_ckpt](https://huggingface.co/ysmikey/spmem_ckpt)].
 
@@ -77,7 +77,7 @@ bash run_stream.sh
 
 
 
-## Training:
+## 🏋️Training:
 We provide an example training script that uses the example training data format.
 
 - **Script (8x GPU)**: `bash train_example.sh`
@@ -89,7 +89,7 @@ Run:
 bash train_example.sh
 ```
 
-## Citation
+## ✒️Citation
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
 ```bibtex
